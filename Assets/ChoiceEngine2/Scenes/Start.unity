@@ -7700,9 +7700,43 @@ MonoBehaviour:
   - id: Player
     name:
     - language: English
-      content: Main Character
+      content: Jen
     isPlayer: 1
     showInCharactersList: 0
+    age: []
+    gender: []
+    avatarID: Avatar0
+    description:
+    - language: English
+      content: Player character description.
+    affection:
+      currentValue: 0
+      maxValue: 10
+      currentStatus: 
+      affectionLevels:
+      - status:
+        - language: English
+          content: Friend
+        requiredAffection: 10
+    stats:
+    - statID: Stat1
+      statName:
+      - language: English
+        content: Stat1
+      currentValue: 1
+      maxValue: 10
+    - statID: Stat2
+      statName:
+      - language: English
+        content: Stat2
+      currentValue: 1
+      maxValue: 10
+  - id: Player1
+    name:
+    - language: English
+      content: Sam
+    isPlayer: 0
+    showInCharactersList: 1
     age: []
     gender: []
     avatarID: Avatar1
@@ -7734,46 +7768,12 @@ MonoBehaviour:
   - id: Player2
     name:
     - language: English
-      content: Player1114
+      content: Tom
     isPlayer: 0
     showInCharactersList: 1
     age: []
     gender: []
-    avatarID: Avatar1
-    description:
-    - language: English
-      content: Player character description.
-    affection:
-      currentValue: 0
-      maxValue: 10
-      currentStatus: 
-      affectionLevels:
-      - status:
-        - language: English
-          content: Friend
-        requiredAffection: 10
-    stats:
-    - statID: Stat1
-      statName:
-      - language: English
-        content: Stat1
-      currentValue: 1
-      maxValue: 10
-    - statID: Stat2
-      statName:
-      - language: English
-        content: Stat2
-      currentValue: 1
-      maxValue: 10
-  - id: Player1
-    name:
-    - language: English
-      content: Player
-    isPlayer: 0
-    showInCharactersList: 1
-    age: []
-    gender: []
-    avatarID: Avatar1
+    avatarID: Avatar2
     description:
     - language: English
       content: Player character description.
@@ -7802,12 +7802,12 @@ MonoBehaviour:
   - id: Player3
     name:
     - language: English
-      content: Player
-    isPlayer: 1
+      content: Urma
+    isPlayer: 0
     showInCharactersList: 1
     age: []
     gender: []
-    avatarID: Avatar1
+    avatarID: Avatar3
     description:
     - language: English
       content: Player character description.
@@ -7836,14 +7836,14 @@ MonoBehaviour:
   - id: TempChar
     name:
     - language: English
-      content: Language 1 Name
+      content: Val
     - language: Language2
       content: Language 2 Name
     isPlayer: 0
     showInCharactersList: 0
     age: []
     gender: []
-    avatarID: Avatar1
+    avatarID: Avatar4
     description:
     - language: English
       content: Player character description.
@@ -7961,6 +7961,7 @@ MonoBehaviour:
   placeholder: {fileID: 21300000, guid: 8e4be4bf6a3e6724db93c9dc09bab1cb, type: 3}
   locked: {fileID: 21300000, guid: 1008d5810fcc033479b10687829bb242, type: 3}
   visitedNodes: []
+  visitedNodesGlobal: []
 --- !u!4 &500731800
 Transform:
   m_ObjectHideFlags: 0
@@ -36929,8 +36930,8 @@ MonoBehaviour:
     description:
     - language: English
       content: This is item 1.
-    currentQuantity: 11
-    maxQuantity: 11
+    currentQuantity: 5
+    maxQuantity: 5
     useFunction: 
 --- !u!114 &2576247905261232345
 MonoBehaviour:
