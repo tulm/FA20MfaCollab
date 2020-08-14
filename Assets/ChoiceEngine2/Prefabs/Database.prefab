@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8063904859714386086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8063904859714386088}
+  - component: {fileID: 8063904859714386087}
+  - component: {fileID: 5509791408171269591}
+  - component: {fileID: 5893217471768339587}
+  - component: {fileID: 8063904859714386089}
+  m_Layer: 0
+  m_Name: Database
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8063904859714386088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063904859714386086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.11889735, y: 1.3674798, z: -1.8187397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8063904859714386087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063904859714386086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2abae8d50f66540916c56274f0d0bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  databaseMenu: 0
+  playerName: Player
+  characters: []
+  images: []
+  audios: []
+  prefabs: []
+  languages: []
+  gallery: []
+  quests: []
+  resources: []
+  items: []
+  placeholder: {fileID: 21300000, guid: 8e4be4bf6a3e6724db93c9dc09bab1cb, type: 3}
+  locked: {fileID: 21300000, guid: 1008d5810fcc033479b10687829bb242, type: 3}
+  visitedNodes: []
+--- !u!114 &5509791408171269591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063904859714386086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7dca10697947141aca9a8fa50b60ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryItems:
+  - itemID: 5
+    itemName:
+    - language: English
+      content: Item1
+    itemIconID: 
+    description:
+    - language: English
+      content: This is item 1.
+    currentQuantity: 11
+    maxQuantity: 11
+    useFunction: 
+--- !u!114 &5893217471768339587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063904859714386086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68541beaf9e6d2e44bbf76fce9ccc507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventoryResources: []
+--- !u!114 &8063904859714386089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063904859714386086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ada285ac01aa734fb75f766845247b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
